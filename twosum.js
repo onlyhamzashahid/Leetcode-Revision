@@ -8,7 +8,6 @@ var twoSum = function(nums, target) {
         return [i , map.get(num2)]
     }
     map.set(num1, i)
-    
   }
 
 };
